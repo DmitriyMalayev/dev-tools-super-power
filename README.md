@@ -1,6 +1,13 @@
 # Dev Tools Super Power
 
-## Problem Statement 
+## Learning Goals
+
+1. Open the developer tools
+2. Use the developer tools to locate and inspect elements
+3. Edit HTML using the developer tools
+
+## Introduction
+
 By now, you're pretty familiar with HTML structural elements, and how they
 relate to each other on the page. You might even feel pretty comfortable writing
 your own valid HTML. But much of the time as developers, we'll be jumping in on
@@ -10,12 +17,6 @@ how we might potentially adjust things. Luckily for us, most browsers have those
 kinds of tools already built in, called `developer tools`, or `dev tools` for
 short. In this lesson, we'll look at the `dev tools` on [Google
 Chrome](https://www.google.com/chrome/).
-
-
-## Objectives 
-1. Open the developer tools
-2. Use the developer tools to locate and inspect elements
-3. Edit HTML using the developer tools
 
 ## Open the Developer Tools 
 
@@ -58,6 +59,7 @@ our own web browser, not on Twitter's web server. Feel free to scroll around on
 Twitter and play with all sorts of different HTML elements and see what happens.
 
 ### Editing images
+
 See if you can find an image. It will be wrapped in HTML tags that start with
 `<img src=`.... You can right click on the image tag in the HTML and again
 select `Edit as HTML`. Between the quotes after `src=` you can replace the image
@@ -76,6 +78,7 @@ might become
 Feel free to play with other HTML elements and watch things change on the page.
 
 ### Bonus
+
 If you want to attempt to change any of the styles of the page, take a look at
 the right-hand column. CSS, which stands for Cascading StyleSheets, manages all
 the styles of your page (think background color, font size, placement of
